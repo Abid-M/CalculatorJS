@@ -6,7 +6,7 @@ console.log(c.cyan.bold.underline("\nPerform Calculations!"))
 
 let exit = false;
 
-while (!exit) {
+while (!exit) { //while exit == false 
     let num1 = prompt("Enter a number: ")
     let num2 = prompt("Enter another number: ")
     let operatorInput = prompt("Enter an operator, '+', '-', '/', '*': ");
